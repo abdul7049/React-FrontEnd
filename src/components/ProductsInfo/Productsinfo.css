@@ -1,0 +1,104 @@
+.product_infomain{
+    
+    margin: 9rem 5rem 5rem 5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.product_infoleft img{
+    width: 20rem;
+   
+}
+.infomaincont{
+    display: flex;
+}
+.product_infomain .productinforight{
+    width: 40%;
+}
+.infocardreview{
+    display: flex;
+    flex-wrap: wrap;
+}
+.product_infomain p{
+    color: rgb(122, 121, 121);
+}
+.infocardpricebtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.infocardpricebtn i{
+    color: white;
+    background-color: #3ccbf3;
+    display: block;
+    padding: .5rem;
+    border-radius: .2rem;
+    border: 1px solid #3ccbf3;
+}
+.infocardpricebtn i:hover{
+
+    background-color: transparent;
+    color: #3ccbf3;
+}
+.infocardpricebtn p{
+    font-size: 1.3rem;
+    margin-top: .5rem;
+}
+.infocardpricebtn button{
+    border-radius: 8px;
+    padding: 5px 10px;
+    background-color: #3ccbf3;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+   margin-left: 5rem;
+    border: 2px solid #3ccbf3;
+    
+    transition: 400ms ease;
+   
+}
+.infocardpricebtn button:hover{
+    background-color: transparent;
+    color: #3ccbf3;
+}
+.infocarddescription button{
+    border-radius: 8px;
+    padding: 5px 10px;
+    background-color: #3ccbf3;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+  
+    border: 2px solid #3ccbf3;
+    
+    transition: 400ms ease;
+}
+.infocarddescription button:hover{
+    background-color: transparent;
+    color: #3ccbf3;
+}
+.infocardstatus{
+    display: flex;
+}
+.infocardstatus p{
+    font-size: 1.3rem;
+    margin-top: -.5rem;
+}
+@media screen and (max-width:650px) {
+
+    .product_infomain {
+        margin: 9rem 5rem 5rem 5rem ;
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+        align-items: center;
+}
+.product_infomain .productinforight {
+    width: 100%;
+}
+}

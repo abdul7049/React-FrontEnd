@@ -1,0 +1,75 @@
+.home_cardd{
+
+    text-align: center;
+      background: rgba(217, 243, 255, 0.35);
+      margin: 1rem;
+      
+      border-radius: 20px;
+      border: 1px solid #3ccbf3;
+  }
+  .main_card{
+    position: relative;
+    
+    
+  }
+  .main_card .home_cardd .cardd img{
+  
+      width: 150px;
+      height: 150px;
+  
+  }
+  .main_card .home_cardd h3,
+  p {
+      color: #f0f0f0;
+      padding: .5rem;
+    
+  }
+  .main_card .home_cardd p{
+    text-align: justify;
+  }
+  .main_card button{
+    background: rgba(60, 203, 243, .5)
+    ;
+    border: none;
+    font-size: 1rem;
+  }
+  
+  .main_card button p{
+    color: rgba(60, 203, 243, .5);
+  }
+  .main_card .prev_btn{ 
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    margin: 0;
+    position: absolute;
+    top: 48%;
+  left:7%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    transition: 0.5s;
+  }
+  .main_card .prev_btn:hover{
+    transform: translate(-50% , -50%);
+  }
+  .main_card .next_btn{ 
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    margin: 0;
+    position: absolute;
+    top: 48%;
+    right: 10%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    transition: 0.5s;
+  }
+  .main_card .next_btn:hover{
+    transform: translate(50% , -50%);
+  }
+  #main_card{
+    display: none;
+  }
+  @media screen and (max-width:998px) {
+    #main_card{
+      display: block;
+    }
+  
+   
+  }

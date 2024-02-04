@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@700&family=Permanent+Marker&display=swap');
+
+.banner_card {
+    position: relative;
+}
+
+.banner_card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.banner_text {
+    position: absolute;
+    top: 30%;
+    margin-left: 10%;
+    color: white;
+    padding: 12px;
+}
+
+.banner_text h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 8rem;
+
+}
+
+.banner_text .h1_span {
+    color: #3ccbf3;
+}
+
+.banner_text h3 {
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 4rem;
+}
+
+.banner_card .banner_btn {
+
+
+    border-radius: 8px;
+    padding: 10px 20px;
+    background-color: #3ccbf3;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    margin-left: 10%;
+    margin-top: 10px;
+    border: 2px solid #3ccbf3;
+    font-family: 'PT Sans Caption', sans-serif;
+    transition: 400ms ease;
+    font-size: 1.6rem;
+}
+
+.banner_card .banner_btn:hover {
+    background-color: transparent;
+
+    
+}
+
+.home__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5px;
+    padding-right: 10px;
+
+    
+    height: fit-content;
+    overflow: hidden;
+}
+
+.home__section h1 {
+    font-family: 'PT Sans Caption', sans-serif;
+    margin: 1rem;
+    font-size: 4rem;
+}
+
+.home__section .home__left {
+   margin: 1rem;
+}
+
+.home__section .home__right {
+    margin-top: 5rem;
+}
+
+.home__section .home__right p {
+
+    text-align: justify;
+    padding: 2rem;
+    color: black;
+    max-width: 100%; 
+    font-size: 1.6rem;
+}
+.home__right .banner_btn{
+    font-size: 1.6rem;
+}
+.home__section .home__card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 3rem;
+    max-width: 100%;
+}
+
+
+.home__info {
+    position: relative;
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+}
+
+.home__info img {
+    max-width: 100%;
+    height: 70vh;
+
+}
+
+.home__info .home__text {
+    position: absolute;
+    top: 1rem;
+    text-align: center;
+
+
+}
+
+.home__info .home__text h1 {
+    font-family: 'Permanent Marker', cursive;
+    color: #ffffff;
+    font-size: 4.5rem;
+}
+
+.home__info .home__text h1 span {
+    color: #3ccbf3;
+}
+
+.home__info .home__text .home_card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.home__info .home__text .home_card .cardd {
+
+    text-align: center;
+    background: rgba(217, 243, 255, 0.35);
+    margin: 1rem;
+    width: 30%;
+    border-radius: 20px;
+    border: 1px solid #3ccbf3;
+}
+
+.home__info .home__text .home_card .cardd h3,
+p {
+    color: #ffffff;
+}
+.home__info .home__text .home_card .cardd h3{
+    font-size: 3rem;
+}
+.home__info .home__text .home_card .cardd p{
+    font-size: 1.6rem;
+    text-align: justify;
+    padding: .5rem;
+}
+.home__info .home__text .home_card .cardd img {
+    width: 150px;
+    height: 150px;
+}
+
+.home__right .banner_btn {
+
+
+    border-radius: 8px;
+    padding: 10px 20px;
+    background-color: #3ccbf3;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    margin-left: 10%;
+    margin-top: 10px;
+    border: 2px solid #3ccbf3;
+    font-family: 'PT Sans Caption', sans-serif;
+    transition: 400ms ease;
+}
+
+.home__right .banner_btn:hover {
+    background-color: transparent;
+    color: #3ccbf3;
+   
+}
+.banner_btn{
+    border-radius: 8px;
+    padding: .5rem 20px;
+    background-color: #3ccbf3;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 1.3rem;
+    border: 2px solid #3ccbf3;
+    font-family: 'PT Sans Caption', sans-serif;
+    transition: 400ms ease;
+}
+.banner_btn:hover{
+    background-color: transparent;
+    color: #3ccbf3;
+}
+.pool_design {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.pool_design h1 {
+    margin: 1rem;
+    font-size: 4rem;
+}
+
+.pool_card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin: 2rem;
+   
+}
+
+
+.customer_reviewmain{
+    margin: 9rem 5rem 5rem 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+
+}
+
+/*==============Media for phones=============*/
+@media screen and (max-width:1200px) {
+
+    .pool_card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2.5rem;
+    }
+
+
+}
+
+@media screen and (max-width:998px) {
+
+    .home__info .home__text h1 {
+
+        font-size: 2.5rem;
+    }
+#home_card{
+    display: none;
+}
+.home__info img {
+    
+    height: 50vh;
+
+}
+    .home__info .home__text .home_card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    .home__info .home__text .home_card .cardd {
+        width: 90%;
+    }
+   
+    .home__info .home__text .home_card .cardd h3 {
+        font-size: 1.2rem;
+    }
+    .home__info .home__text .home_card .cardd img {
+        width: 20%;
+        height: 20%;
+    }
+    .home__info .home__text .home_card .cardd p{
+        font-size: 1rem;
+    }
+    .banner_text h1 {
+        font-size: 4rem;
+    }
+    .banner_text h3{
+        font-size: 1.5rem;
+    }
+    .home__section .home__card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+   
+}
+@media screen and (max-width:887px) {
+    .pool_card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+   
+}
+
+@media screen and (max-width:867px) {
+    
+
+}
+
+
+@media screen and (max-width:750px) {
+    .banner_text h1 {
+
+        font-size: 2.5rem;
+    }
+    .banner_card img {
+       
+        height: 50vh;
+    }
+    .banner_text h3 {
+       font-size: 1rem;
+    }
+
+    .banner_card .banner_btn {
+        padding: 5px;
+        font-size: 10px;
+    }
+    
+    .home__section .home__right p {
+        font-size: 15px;
+    }
+    .customer_reviewmain{
+        margin: 9rem 1rem 1rem 1rem;
+       
+    
+    }
+}

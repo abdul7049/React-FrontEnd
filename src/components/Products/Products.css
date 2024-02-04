@@ -1,0 +1,29 @@
+.cart_icon{
+  
+    margin: 10rem 5rem 5rem 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+.cart_icon i{
+  font-size: 3rem;
+  color: #192533;
+  transition: 400ms ease;
+}
+.cart_icon i:hover{
+  color: #3ccbf3;
+  cursor: pointer;
+}
+.products_main_cart{
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  align-items: center;
+}
+.cart_icon input{
+  font-size: 1.3rem;
+  border-radius: .5rem;
+  padding: .5rem;
+  
+}

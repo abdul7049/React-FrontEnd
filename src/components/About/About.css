@@ -1,0 +1,321 @@
+.about_card {
+    position: relative;
+}
+
+.about_card img {
+    max-width: 100%;
+    height: 80vh;
+}
+
+.about_text {
+    position: absolute;
+    top: 30%;
+   
+    color: white;
+    
+    text-align: center;
+    
+}
+
+.about_text h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 6.4rem;
+
+}
+
+.h1_span {
+    color: #3ccbf3;
+}
+
+.about_text p {
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 3.2rem;
+}
+
+.about_text p span {
+    color: #3ccbf3;
+}
+
+.about__section hr {
+    border: .2rem solid #3ccbf3;
+    /* You can change the color by modifying the hex code */
+    margin: 2rem 0;
+    width: 30rem;
+}
+
+.about__section h1 {
+  
+    font-size: 4rem;
+}
+
+.about__section {
+    position: relative;
+  
+}
+
+.about__section img {
+    max-width: 100%;
+    height: 80vh;
+}
+
+.aboutinfo_card {
+    position: absolute;
+    top: 15%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.aboutinfo_card .abtcard_left {
+    width: 35%;
+}
+
+.aboutinfo_card .abtcard_left h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 4.8rem;
+    color: #fff;
+    width: max-content;
+    margin-left: -0.1rem;
+}
+
+.aboutinfo_card .abtcard_left p {
+    font-family: 'PT Sans Caption', sans-serif;
+    margin-top: 6.4rem;
+    font-size: 2.4rem;
+    color: #fff;
+}
+.about__section .abthead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+}
+.aboutinfo_card .abtcard__right {
+    
+    background: rgba(217, 243, 255, 0.35);
+    margin: 1.6rem;
+    width: fit-content;
+    border-radius: 2rem;
+    border: .1rem solid #3ccbf3;
+    padding: 1.6rem;
+    text-align: left;
+}
+.aboutinfo_card .abtcard__right h3{
+    color: #fff;
+    font-size: 2.4rem;
+}
+.aboutinfo_card .abtcard__right h3 span{
+    color: #3ccbf3;
+    font-size: 3.2rem;
+}
+.abt__contact{
+    width: 100%;
+    height: 40rem;
+    background: #D4F1ED;
+    margin-top: 1.6rem;
+    text-align: center;
+    position: relative;
+}
+.abt__contact p{
+    position: absolute;
+    top: 10%;
+    color: black;
+        font-family: 'PT Sans Caption', sans-serif;
+        font-size: 4rem;
+}
+.abt_cnt_card{
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    margin: 4.8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.abt_cnt_card button{
+    border-radius: 8px;
+    padding: 1rem 2rem; 
+    background-color: #3ccbf3;
+    color: #ffffff; 
+    border: none; 
+    cursor: pointer; 
+    margin-left: 10%;
+    margin-top: 1rem;
+    font-family: 'PT Sans Caption', sans-serif;
+    transition: 400ms ease;
+    border: .1rem solid #3ccbf3;
+    width: max-content;
+    font-size: 1.6rem;
+}
+.abt_cnt_card button:hover{
+    background-color: transparent;
+    color: #3ccbf3;
+      
+}
+.containere{
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.about_servicesmain {
+    display: flex;
+    gap: 3rem;
+    margin: 5rem 5rem 5rem 5rem;
+    flex-direction: column;
+    align-items: center;
+}
+.about_servicesmain .services_card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.services_card .services_cardbody{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+
+}
+.services_card .services_cardbody i{
+    color: #3ccbf3;
+    font-size: 4.6rem;
+}
+.services_card .services_cardbody h3{
+    font-size: 2.2rem;
+}
+.services_card .services_cardbody p{
+    font-size: 1.6rem;
+    color: black;
+}
+@media screen and (max-width:998px){
+
+    .about_text h1 {
+       
+        font-size: 4.4rem;
+    
+    }
+    .about_text p {
+    
+        font-size: 2.2rem;
+    }
+    .aboutinfo_card .abtcard_left h1 {
+        font-size: 4.4rem;
+    }
+
+    .aboutinfo_card .abtcard_left p {
+
+        font-size: 2.2rem;
+    }
+    .aboutinfo_card {
+        display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    }
+    .aboutinfo_card .abtcard_left {
+        display: flex;
+        width: fit-content;
+        align-items: center;
+        flex-direction: column;
+    }
+    .aboutinfo_card .abtcard_left p {
+        margin-top: 2rem;
+        padding: 2rem;
+        
+    }
+}
+
+@media screen and (max-width:750px){
+
+    .aboutinfo_card .abtcard_left h1 {
+        font-size: 3.4rem;
+    }
+    .aboutinfo_card .abtcard_left p {
+        
+        font-size: 1.8rem;
+    }
+    .aboutinfo_card .abtcard__right h3 {
+        font-size: 1.8rem;
+    }
+    .aboutinfo_card .abtcard__right h3 span {
+        
+        font-size: 2.3rem;
+    }
+    .abt__contact p {
+        
+        font-size: 2.5rem;
+    }
+    .abt__contact {
+        
+        height: 20rem;
+       
+    }
+    .abt_cnt_card {
+       
+        top: 30%;
+      
+        margin: 4.8rem;
+        
+    }
+
+    .abt_cnt_card button {
+      
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:745px){ 
+
+    .about_servicesmain {
+        
+        margin: 5rem 2rem 5rem 2rem;
+       
+    }
+}
+@media screen and (max-width:675px){
+    .about_servicesmain {
+        
+        margin: 5rem 1rem 5rem 1rem;
+       
+    }
+    .services_card .services_cardbody i {
+      
+        font-size: 3.6rem;
+    }
+    .services_card .services_cardbody h3 {
+        font-size: 1.1rem;
+    }
+    .services_card .services_cardbody p {
+        font-size: 1rem;
+    }
+} 
+@media screen and (max-width:570px){
+
+    .abt__contact p {
+        font-size: 1.6rem;
+    }
+    .abt_cnt_card button {
+        font-size: .9rem;
+    }
+   
+    .about_text h1 {
+        font-size: 3rem;
+    }
+
+    .about_text p {
+        font-size: 1.6rem;
+    }
+
+    .aboutinfo_card .abtcard_left h1 {
+        font-size: 3rem;
+    }
+    .aboutinfo_card .abtcard_left p {
+        font-size: 1.6rem;
+    }
+}
